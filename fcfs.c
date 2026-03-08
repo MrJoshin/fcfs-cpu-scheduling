@@ -21,7 +21,7 @@ int main()
     for(i=0;i<n;i++)
     {
         if(time < at[i])
-            time = at[i];   // CPU idle if next process hasn't arrived
+            time = at[i];   
 
         wt[i] = time - at[i];
         time = time + bt[i];
